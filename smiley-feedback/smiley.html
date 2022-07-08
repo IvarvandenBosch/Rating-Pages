@@ -9,17 +9,19 @@
     <title>Smiles</title>
 </head>
 <body>
-    <div id="container" class="container">
-        <h2>Rate your experience:</h2>
-        <div class="i-container">
-            <i id="grin" class="fa-regular fa-face-grin fa-6x" onclick="nextPage()"></i>
-            <i id="meh" class="fa-regular fa-face-meh fa-6x" onclick="nextPage()"></i>
-            <i id="frown" class="fa-regular fa-face-frown fa-6x" onclick="nextPage()"></i>  
+    <div id="sml-rating" class="sml-rating">
+        <div id="container" class="container">
+            <h2>Rate your experience:</h2>
+            <div class="i-container">
+                <i id="frown" class="fa-regular fa-face-frown fa-6x" onclick="nextPage()"></i> 
+                <i id="meh" class="fa-regular fa-face-meh fa-6x" onclick="nextPage()"></i>
+                <i id="grin" class="fa-regular fa-face-grin fa-6x" onclick="nextPage()"></i>
+            </div>
         </div>
-    </div>
-    <div id="thankyou" class="container-ty display-none">
-    <h2>Thank you for your feedback!</h2>
-
+        <div id="thankyou" class="container-ty display-none">
+            <h2>Thank you for your feedback!</h2>
+        </div>
+        <i class="fa-solid fa-xmark fa-2x" onclick="displayNone()"></i>
     </div>
 </body>
 <script src="smiley.js"></script>

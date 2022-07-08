@@ -1,0 +1,93 @@
+body
+{
+    box-sizing: border-box;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+} 
+
+.container h2
+{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.icon-container i:hover
+{
+    cursor: pointer;
+}
+
+.icon-container i
+{
+    margin: 0;
+}
+
+.icon-container
+{
+    display: flex;
+    gap: -10px;
+}
+
+.color-gold
+{
+    color: gold;
+}
+
+.display-none
+{
+    display: none;
+}
+
+#str-1
+{
+    color: red;
+}
+
+#str-2
+{
+    color: rgb(255, 123, 0);
+}
+
+#str-3
+{
+    color: rgb(255, 230, 0);
+}
+
+#str-4
+{
+    color: rgb(86, 214, 0);
+}
+
+#str-5
+{
+    color: rgb(13, 110, 0);
+}
+
+.container-p    p
+{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+}
